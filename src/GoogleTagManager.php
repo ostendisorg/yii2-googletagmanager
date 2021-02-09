@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLutzenberger\GoogleTagManager;
+namespace ostendisorg\GoogleTagManager;
 
 use Yii;
 use yii\base\Widget;
@@ -10,8 +10,8 @@ use yii\web\View;
 /**
  * Class GoogleTagManager
  *
- * @package   TomLutzenberger\GoogleTagManager
- * @copyright 2019 Tom Lutzenberger
+ * @package   ostendisorg\GoogleTagManager
+ * @copyright 2021 Ostendis AG
  * @author    Tom Lutzenberger <lutzenbergertom@gmail.com>
  */
 class GoogleTagManager extends Widget
