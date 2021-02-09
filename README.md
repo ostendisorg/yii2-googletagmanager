@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist tomlutzenberger/yii2-googletagmanager "*"
+php composer.phar require --prefer-dist ostendisorg/yii2-googletagmanager "*"
 ```
 
 or add
 
 ```
-"tomlutzenberger/yii2-googletagmanager": "*"
+"ostendisorg/yii2-googletagmanager": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by:
 
 ```php
-<?= \TomLutzenberger\GoogleTagManager\GoogleTagManager::widget() ?>
+<?= \ostendisorg\GoogleTagManager\GoogleTagManager::widget() ?>
 ```
 
 You can either add the ID of your container to the `params.php`
@@ -46,7 +46,7 @@ or pass it
 directly to the widget: 
 
 ```php
-<?= \TomLutzenberger\GoogleTagManager\GoogleTagManager::widget([
+<?= \ostendisorg\GoogleTagManager\GoogleTagManager::widget([
     'gtmId' => 'GTM-ASDF123'
 ]) ?>
 ```

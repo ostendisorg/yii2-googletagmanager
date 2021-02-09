@@ -1,27 +1,34 @@
 {
-    "name": "tomlutzenberger/yii2-googletagmanager",
-    "description": "Yii2 Widget for Google Tag Manager",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","google","tagmanager","analytics","tracking"],
-    "license": "MIT",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "authors": [
-        {
-            "name": "Tom Lutzenberger",
-            "email": "lutzenbergertom@gmail.com"
-        }
-    ],
-    "support": {
-        "source": "https://github.com/tomlutzenberger/yii2-googletagmanager",
-        "issues": "https://github.com/tomlutzenberger/yii2-googletagmanager/issues"
+  "name": "ostendisorg/yii2-googletagmanager",
+  "description": "Yii2 Widget for Google Tag Manager",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "google",
+    "tagmanager",
+    "analytics",
+    "tracking"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Daniel Nüssli",
+      "email": "daniel.nuessli@ostendis.com"
     },
-    "require": {
-        "yiisoft/yii2": "~2.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "TomLutzenberger\\GoogleTagManager\\": "src"
-        }
+    {
+      "name": "Tom Lutzenberger",
+      "email": "lutzenbergertom@gmail.com"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ostendisorg\\googletagmanager\\": "src"
+    }
+  }
 }
